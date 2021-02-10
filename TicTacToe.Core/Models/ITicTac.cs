@@ -6,7 +6,7 @@ namespace TicTacToe.Core.Models
 {
     public interface ITicTac
     {
-        int State
+        string Value
         {
             get;
             set;

@@ -7,9 +7,11 @@ namespace TicTacToe.Core.Models
     public interface IGrid
     {
         void Start();
-        List<TicTac> PlayGrid
+        List<ITicTac> PlayGrid
         {
             get;
         }
+
+        bool CheckWinState();
     }
 }
